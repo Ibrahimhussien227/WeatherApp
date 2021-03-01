@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Weather Location">
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="CHOOSE_LOCATION"
+            android:summary="Choose the location of the city you want"
+            android:title="Location" />
+    </PreferenceCategory>
+</PreferenceScreen>
